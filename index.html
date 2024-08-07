@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result-Summary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container"> 
+    <!-- left side Content -->
+  <div class="left">
+    <div class="item">
+      <p class="result">Your Result</p>
+      <div class="circle">
+        <div class="number">0</div> <!-- The output of the summary average  -->
+        <p class="total">of 100</p><!-- out of 100 -->
+      </div>
+      <p class="feedback">Feedback</p> <!-- feedback about the total score -->
+      <p class="comparison">Opinion on Score</p><!-- opinion/ advise according to the total score -->
+    </div>
+</div>
+<!-- right side content -->
+  <div class="right">
+    <div class="list">
+        <p class="summary">Summary</p> <!-- title -->
+        <!-- items that goes in order -->
+        <div class="item">
+        <div class="reaction">
+          <img src="media/icon-reaction.svg">
+          <p>Tamil</p>
+          <input class="input" type="number" placeholder="0"> <!-- to give input value of your score -->
+          <p class="score">/100</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="memory">
+          <img src="media/icon-memory.svg">
+          <p>English</p>
+          <input class="input" type="number" placeholder="0">
+          <p class="score">/100</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="verbal">
+          <img src="media/icon-verbal.svg">
+          <p>Maths</p>
+          <input class="input" type="number" placeholder="0">
+          <p class="score">/100</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="visual">
+          <img src="media/icon-memory.svg">
+          <p>Science</p>
+          <input class="input" type="number" placeholder="0">
+          <p class="score">/100</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="social">
+          <img src="media/icon-visual.svg">
+          <p>Social</p>
+          <input class="input" type="number" placeholder="0">
+          <p class="score">/100</p>
+        </div>
+      </div>
+      <button class="evaluate">Evaluate</button> <!-- to evaluate the average (by clicking) -->
+      </div>
+    </div>
+</div>
+</div>
+<script src="scrpit.js"></script>
+</body>
+</html>
