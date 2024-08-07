@@ -36,5 +36,5 @@ This project provides a simple and stylish way to calculate the average score ac
 
 ## Installation
 
-1. Clone the repository: 
+1. Clone the repository: https://github.com/VaithegiV/Summary-of-result-.git
 2. Live demo: https://vaithegiv.github.io/Summary-of-result-/
